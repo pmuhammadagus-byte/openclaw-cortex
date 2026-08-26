@@ -39,7 +39,7 @@ function resolveConfig(pluginConfig: Record<string, unknown> | undefined): Corte
 }
 
 export default definePluginEntry({
-  id: "cortex",
+  id: "openclaw-cortex",
   name: "Cortex — Cognitive Enhancement Engine",
   description:
     "Meta-cognition, self-reflection, reasoning boost, knowledge synthesis, " +

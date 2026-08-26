@@ -35,7 +35,7 @@ function resolveConfig(pluginConfig) {
     };
 }
 export default definePluginEntry({
-    id: "cortex",
+    id: "openclaw-cortex",
     name: "Cortex — Cognitive Enhancement Engine",
     description: "Meta-cognition, self-reflection, reasoning boost, knowledge synthesis, " +
         "and autonomous learning loop for OpenClaw agents.",
