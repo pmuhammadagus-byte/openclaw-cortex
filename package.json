@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/cortex",
+  "name": "@pmuhammadagus-byte/openclaw-cortex",
   "version": "1.0.0",
   "description": "Cognitive Enhancement Engine for OpenClaw. Meta-cognition, self-reflection, reasoning boost, knowledge synthesis, and autonomous learning loop.",
   "type": "module",
@@ -26,7 +26,9 @@
     "openclaw": ">=2026.3.24-beta.2"
   },
   "openclaw": {
-    "extensions": ["./dist/index.js"],
+    "extensions": [
+      "./dist/index.js"
+    ],
     "compat": {
       "pluginApi": ">=2026.3.24-beta.2",
       "minGatewayVersion": "2026.3.24-beta.2"
@@ -45,6 +47,6 @@
     "self-reflection",
     "learning"
   ],
-  "author": "OpenClaw Community",
+  "author": "Clara (pmuhammadagus-byte)",
   "license": "MIT"
 }
