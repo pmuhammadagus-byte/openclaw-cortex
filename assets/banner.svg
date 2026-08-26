@@ -1,0 +1,44 @@
+<svg width="1200" height="400" xmlns="http://www.w3.org/2000/svg" font-family="DejaVu Sans, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0e1a"/>
+      <stop offset="55%" stop-color="#141a33"/>
+      <stop offset="100%" stop-color="#1d2b52"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9b8cff"/>
+      <stop offset="100%" stop-color="#5ad1ff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#9b8cff" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#9b8cff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <rect width="1200" height="400" fill="url(#glow)"/>
+
+  <!-- neural swirl -->
+  <g stroke="#9b8cff" stroke-opacity="0.25" stroke-width="1.5" fill="none">
+    <path d="M880 120 C960 160 960 240 880 280 C820 310 760 280 760 220"/>
+    <path d="M880 120 C840 150 800 150 770 190"/>
+    <path d="M880 280 C940 300 1010 270 1040 220"/>
+  </g>
+  <g fill="#9b8cff" fill-opacity="0.8">
+    <circle cx="880" cy="120" r="6"/>
+    <circle cx="760" cy="220" r="6"/>
+    <circle cx="1040" cy="220" r="6"/>
+    <circle cx="880" cy="280" r="5"/>
+  </g>
+
+  <!-- mark -->
+  <text x="90" y="205" font-size="135" fill="url(#accent)">🧠</text>
+
+  <!-- title -->
+  <text x="270" y="185" font-size="72" font-weight="bold" fill="#ffffff" letter-spacing="-1">Cortex</text>
+  <text x="273" y="242" font-size="28" fill="#9b8cff" font-weight="bold">Cognitive Enhancement Engine</text>
+  <text x="273" y="292" font-size="21" fill="#aab4cc">Meta-cognition, reasoning, synthesis &amp; autonomous learning for OpenClaw.</text>
+
+  <rect x="273" y="322" width="520" height="4" rx="2" fill="url(#accent)"/>
+  <text x="273" y="362" font-size="16" fill="#7f8aa3">reflect · reason · synthesize · contemplate · status</text>
+</svg>

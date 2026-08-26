@@ -1,0 +1,62 @@
+{
+  "id": "cortex",
+  "name": "Cortex — Cognitive Enhancement Engine",
+  "description": "Meta-cognition, self-reflection, reasoning boost, knowledge synthesis, and autonomous learning loop for OpenClaw agents.",
+  "contracts": {
+    "tools": [
+      "cortex_reflect",
+      "cortex_reason",
+      "cortex_synthesize",
+      "cortex_contemplate",
+      "cortex_status"
+    ]
+  },
+  "activation": {
+    "onStartup": true
+  },
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "reflectionDepth": {
+        "type": "integer",
+        "description": "Number of reflection passes (1-3)",
+        "default": 2,
+        "minimum": 1,
+        "maximum": 3
+      },
+      "reasoningMode": {
+        "type": "string",
+        "description": "Default reasoning mode",
+        "enum": [
+          "fast",
+          "deep",
+          "adaptive"
+        ],
+        "default": "adaptive"
+      },
+      "entropyThreshold": {
+        "type": "number",
+        "description": "Entropy threshold for drift detection (0.0-1.0)",
+        "default": 0.7,
+        "minimum": 0,
+        "maximum": 1
+      },
+      "autoContemplate": {
+        "type": "boolean",
+        "description": "Automatically contemplate complex queries",
+        "default": true
+      },
+      "knowledgeGraphEnabled": {
+        "type": "boolean",
+        "description": "Enable entity extraction and knowledge graph",
+        "default": true
+      },
+      "memoryDir": {
+        "type": "string",
+        "description": "Directory for cognitive memory storage",
+        "default": ""
+      }
+    }
+  }
+}
